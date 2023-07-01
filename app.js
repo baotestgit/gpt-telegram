@@ -23,7 +23,6 @@ bot.onText(/^([^\/].+)/, async (msg, match) => {
 	let chatId = msg.chat.id;
 	
 	if (listUserBanned.hasOwnProperty(chatId)){
-		bot.sendMessage(chatId, "**System:** Bạn đã bị Kerros khoá mõm.");
 		return;
 	}
 	

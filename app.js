@@ -3,7 +3,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
 const CharacterAI = require('node_characterai');
 const characterAI = new CharacterAI();
-const VERSION_APP = "1.0.3";
+const VERSION_APP = "1.0.31";
 var chatAI;
 const bot = new TelegramBot(TELEGRAM_TOKEN, {polling: true});
 
